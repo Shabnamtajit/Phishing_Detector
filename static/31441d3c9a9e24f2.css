@@ -1,0 +1,38 @@
+.Loading_container__jNRnx {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Loading_container__jNRnx div {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #fd0054;
+    opacity: .7;
+    border-radius: 50%;
+    display: inline-block;
+    animation: Loading_bounce__wKxKO 1.2s ease-in-out infinite both
+}
+
+.Loading_container__jNRnx .Loading_bounce__wKxKO {
+    animation-delay: -.3s
+}
+
+.Loading_container__jNRnx .Loading_bounce2__5S9jb {
+    animation-delay: -.15s
+}
+
+.Loading_container__jNRnx .Loading_bounce4__VBN0b {
+    animation-delay: .15s
+}
+
+@keyframes Loading_bounce__wKxKO {
+    0%,80%,to {
+        transform: scale(.3)
+    }
+
+    40% {
+        transform: scale(1)
+    }
+}
