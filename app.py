@@ -2,7 +2,7 @@ from flask import *
 from training import *
 app=Flask(__name__)
 
-@app.route("/")
+@app.route("/")# This is for test 
 @app.route("/home")
 def home():
     return render_template("home.html")
